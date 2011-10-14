@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		78CFE5471448B6A8006D4887 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CFE5461448B6A8006D4887 /* UIKit.framework */; };
+		78CFE5491448B6A8006D4887 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CFE5481448B6A8006D4887 /* Foundation.framework */; };
+		78CFE54B1448B6A8006D4887 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78CFE54A1448B6A8006D4887 /* CoreGraphics.framework */; };
+		78CFE5511448B6A8006D4887 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 78CFE54F1448B6A8006D4887 /* InfoPlist.strings */; };
+		78CFE5541448B6A8006D4887 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CFE5531448B6A8006D4887 /* main.m */; };
+		78CFE5571448B6A8006D4887 /* TBBackButtonSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CFE5561448B6A8006D4887 /* TBBackButtonSampleAppDelegate.m */; };
+		78CFE55A1448B6A8006D4887 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78CFE5581448B6A8006D4887 /* MainWindow.xib */; };
+		78CFE55D1448B6A8006D4887 /* TBBackButtonSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CFE55C1448B6A8006D4887 /* TBBackButtonSampleViewController.m */; };
+		78CFE5601448B6A8006D4887 /* TBBackButtonSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78CFE55E1448B6A8006D4887 /* TBBackButtonSampleViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		78CFE5421448B6A8006D4887 /* TBBackButtonSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBBackButtonSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		78CFE5461448B6A8006D4887 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		78CFE5481448B6A8006D4887 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		78CFE54A1448B6A8006D4887 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		78CFE54E1448B6A8006D4887 /* TBBackButtonSample-Info.plist */ = {isa = PBXFileReference; path = "TBBackButtonSample-Info.plist"; sourceTree = "<group>"; };
+		78CFE5501448B6A8006D4887 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		78CFE5521448B6A8006D4887 /* TBBackButtonSample-Prefix.pch */ = {isa = PBXFileReference; path = "TBBackButtonSample-Prefix.pch"; sourceTree = "<group>"; };
+		78CFE5531448B6A8006D4887 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		78CFE5551448B6A8006D4887 /* TBBackButtonSampleAppDelegate.h */ = {isa = PBXFileReference; path = TBBackButtonSampleAppDelegate.h; sourceTree = "<group>"; };
+		78CFE5561448B6A8006D4887 /* TBBackButtonSampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBBackButtonSampleAppDelegate.m; sourceTree = "<group>"; };
+		78CFE5591448B6A8006D4887 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		78CFE55B1448B6A8006D4887 /* TBBackButtonSampleViewController.h */ = {isa = PBXFileReference; path = TBBackButtonSampleViewController.h; sourceTree = "<group>"; };
+		78CFE55C1448B6A8006D4887 /* TBBackButtonSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBBackButtonSampleViewController.m; sourceTree = "<group>"; };
+		78CFE55F1448B6A8006D4887 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TBBackButtonSampleViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		78CFE53F1448B6A8006D4887 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78CFE5471448B6A8006D4887 /* UIKit.framework in Frameworks */,
+				78CFE5491448B6A8006D4887 /* Foundation.framework in Frameworks */,
+				78CFE54B1448B6A8006D4887 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78CFE5371448B6A7006D4887 = {
+			isa = PBXGroup;
+			children = (
+				78CFE54C1448B6A8006D4887 /* TBBackButtonSample */,
+				78CFE5451448B6A8006D4887 /* Frameworks */,
+				78CFE5431448B6A8006D4887 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		78CFE5431448B6A8006D4887 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78CFE5421448B6A8006D4887 /* TBBackButtonSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		78CFE5451448B6A8006D4887 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78CFE5461448B6A8006D4887 /* UIKit.framework */,
+				78CFE5481448B6A8006D4887 /* Foundation.framework */,
+				78CFE54A1448B6A8006D4887 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78CFE54C1448B6A8006D4887 /* TBBackButtonSample */ = {
+			isa = PBXGroup;
+			children = (
+				78CFE5551448B6A8006D4887 /* TBBackButtonSampleAppDelegate.h */,
+				78CFE5561448B6A8006D4887 /* TBBackButtonSampleAppDelegate.m */,
+				78CFE5581448B6A8006D4887 /* MainWindow.xib */,
+				78CFE55B1448B6A8006D4887 /* TBBackButtonSampleViewController.h */,
+				78CFE55C1448B6A8006D4887 /* TBBackButtonSampleViewController.m */,
+				78CFE55E1448B6A8006D4887 /* TBBackButtonSampleViewController.xib */,
+				78CFE54D1448B6A8006D4887 /* Supporting Files */,
+			);
+			path = TBBackButtonSample;
+			sourceTree = "<group>";
+		};
+		78CFE54D1448B6A8006D4887 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				78CFE54E1448B6A8006D4887 /* TBBackButtonSample-Info.plist */,
+				78CFE54F1448B6A8006D4887 /* InfoPlist.strings */,
+				78CFE5521448B6A8006D4887 /* TBBackButtonSample-Prefix.pch */,
+				78CFE5531448B6A8006D4887 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		78CFE5411448B6A8006D4887 /* TBBackButtonSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 78CFE5631448B6A8006D4887 /* Build configuration list for PBXNativeTarget "TBBackButtonSample" */;
+			buildPhases = (
+				78CFE53E1448B6A8006D4887 /* Sources */,
+				78CFE53F1448B6A8006D4887 /* Frameworks */,
+				78CFE5401448B6A8006D4887 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TBBackButtonSample;
+			productName = TBBackButtonSample;
+			productReference = 78CFE5421448B6A8006D4887 /* TBBackButtonSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		78CFE5391448B6A7006D4887 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 78CFE53C1448B6A7006D4887 /* Build configuration list for PBXProject "TBBackButtonSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 78CFE5371448B6A7006D4887;
+			productRefGroup = 78CFE5431448B6A8006D4887 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78CFE5411448B6A8006D4887 /* TBBackButtonSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		78CFE5401448B6A8006D4887 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78CFE5511448B6A8006D4887 /* InfoPlist.strings in Resources */,
+				78CFE55A1448B6A8006D4887 /* MainWindow.xib in Resources */,
+				78CFE5601448B6A8006D4887 /* TBBackButtonSampleViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		78CFE53E1448B6A8006D4887 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78CFE5541448B6A8006D4887 /* main.m in Sources */,
+				78CFE5571448B6A8006D4887 /* TBBackButtonSampleAppDelegate.m in Sources */,
+				78CFE55D1448B6A8006D4887 /* TBBackButtonSampleViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		78CFE54F1448B6A8006D4887 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78CFE5501448B6A8006D4887 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		78CFE5581448B6A8006D4887 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78CFE5591448B6A8006D4887 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		78CFE55E1448B6A8006D4887 /* TBBackButtonSampleViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				78CFE55F1448B6A8006D4887 /* en */,
+			);
+			name = TBBackButtonSampleViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		78CFE5611448B6A8006D4887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		78CFE5621448B6A8006D4887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		78CFE5641448B6A8006D4887 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBBackButtonSample/TBBackButtonSample-Prefix.pch";
+				INFOPLIST_FILE = "TBBackButtonSample/TBBackButtonSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		78CFE5651448B6A8006D4887 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBBackButtonSample/TBBackButtonSample-Prefix.pch";
+				INFOPLIST_FILE = "TBBackButtonSample/TBBackButtonSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		78CFE53C1448B6A7006D4887 /* Build configuration list for PBXProject "TBBackButtonSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78CFE5611448B6A8006D4887 /* Debug */,
+				78CFE5621448B6A8006D4887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		78CFE5631448B6A8006D4887 /* Build configuration list for PBXNativeTarget "TBBackButtonSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78CFE5641448B6A8006D4887 /* Debug */,
+				78CFE5651448B6A8006D4887 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 78CFE5391448B6A7006D4887 /* Project object */;
+}
