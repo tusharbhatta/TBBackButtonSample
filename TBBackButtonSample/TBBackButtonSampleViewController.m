@@ -9,9 +9,11 @@
 #import "TBBackButtonSampleViewController.h"
 
 @implementation TBBackButtonSampleViewController
+@synthesize navBar;
 
 - (void)dealloc
 {
+    [navBar release];
     [super dealloc];
 }
 
@@ -25,16 +27,37 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
-{
+{   
     [super viewDidLoad];
+    
+    //UIButton with back image
+    UIButton *back = [UIButton buttonWithType:UIButtonTypeCustom];
+    back.frame = CGRectMake(0, 0, 55, 30);
+    [back setBackgroundImage:[[UIImage  imageNamed:@"back_button.png"] stretchableImageWithLeftCapWidth:12 topCapHeight:0] forState:UIControlStateNormal];
+    [back setTitle:@"Back" forState:UIControlStateNormal];
+    [back setTitleEdgeInsets:UIEdgeInsetsMake(0, 7, 2, 0)]; // give little space before the text
+    [[back titleLabel] setFont:[UIFont systemFontOfSize:15.0]];
+    [back addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
+    
+    //BarButtonItem with custom view/button
+    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] initWithCustomView:back];
+    self.navBar.topItem.leftBarButtonItem = backItem;
+    [backItem release];
+     
 }
-*/
+
+
+- (void)back{
+    
+    NSLog(@"Back Clicked !");
+}
 
 - (void)viewDidUnload
 {
+    [self setNavBar:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;

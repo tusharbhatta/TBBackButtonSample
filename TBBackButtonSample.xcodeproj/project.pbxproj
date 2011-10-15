@@ -16,6 +16,7 @@
 		78CFE55A1448B6A8006D4887 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78CFE5581448B6A8006D4887 /* MainWindow.xib */; };
 		78CFE55D1448B6A8006D4887 /* TBBackButtonSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78CFE55C1448B6A8006D4887 /* TBBackButtonSampleViewController.m */; };
 		78CFE5601448B6A8006D4887 /* TBBackButtonSampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 78CFE55E1448B6A8006D4887 /* TBBackButtonSampleViewController.xib */; };
+		78CFE5671448B7FE006D4887 /* back_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 78CFE5661448B7FE006D4887 /* back_button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,16 +24,17 @@
 		78CFE5461448B6A8006D4887 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		78CFE5481448B6A8006D4887 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		78CFE54A1448B6A8006D4887 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		78CFE54E1448B6A8006D4887 /* TBBackButtonSample-Info.plist */ = {isa = PBXFileReference; path = "TBBackButtonSample-Info.plist"; sourceTree = "<group>"; };
+		78CFE54E1448B6A8006D4887 /* TBBackButtonSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBBackButtonSample-Info.plist"; sourceTree = "<group>"; };
 		78CFE5501448B6A8006D4887 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		78CFE5521448B6A8006D4887 /* TBBackButtonSample-Prefix.pch */ = {isa = PBXFileReference; path = "TBBackButtonSample-Prefix.pch"; sourceTree = "<group>"; };
+		78CFE5521448B6A8006D4887 /* TBBackButtonSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TBBackButtonSample-Prefix.pch"; sourceTree = "<group>"; };
 		78CFE5531448B6A8006D4887 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		78CFE5551448B6A8006D4887 /* TBBackButtonSampleAppDelegate.h */ = {isa = PBXFileReference; path = TBBackButtonSampleAppDelegate.h; sourceTree = "<group>"; };
+		78CFE5551448B6A8006D4887 /* TBBackButtonSampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBBackButtonSampleAppDelegate.h; sourceTree = "<group>"; };
 		78CFE5561448B6A8006D4887 /* TBBackButtonSampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBBackButtonSampleAppDelegate.m; sourceTree = "<group>"; };
 		78CFE5591448B6A8006D4887 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		78CFE55B1448B6A8006D4887 /* TBBackButtonSampleViewController.h */ = {isa = PBXFileReference; path = TBBackButtonSampleViewController.h; sourceTree = "<group>"; };
+		78CFE55B1448B6A8006D4887 /* TBBackButtonSampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBBackButtonSampleViewController.h; sourceTree = "<group>"; };
 		78CFE55C1448B6A8006D4887 /* TBBackButtonSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBBackButtonSampleViewController.m; sourceTree = "<group>"; };
 		78CFE55F1448B6A8006D4887 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TBBackButtonSampleViewController.xib; sourceTree = "<group>"; };
+		78CFE5661448B7FE006D4887 /* back_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				78CFE55B1448B6A8006D4887 /* TBBackButtonSampleViewController.h */,
 				78CFE55C1448B6A8006D4887 /* TBBackButtonSampleViewController.m */,
 				78CFE55E1448B6A8006D4887 /* TBBackButtonSampleViewController.xib */,
+				78CFE5661448B7FE006D4887 /* back_button.png */,
 				78CFE54D1448B6A8006D4887 /* Supporting Files */,
 			);
 			path = TBBackButtonSample;
@@ -151,6 +154,7 @@
 				78CFE5511448B6A8006D4887 /* InfoPlist.strings in Resources */,
 				78CFE55A1448B6A8006D4887 /* MainWindow.xib in Resources */,
 				78CFE5601448B6A8006D4887 /* TBBackButtonSampleViewController.xib in Resources */,
+				78CFE5671448B7FE006D4887 /* back_button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

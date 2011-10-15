@@ -10,6 +10,8 @@
 
 @interface TBBackButtonSampleViewController : UIViewController {
     
+    UINavigationBar *navBar;
 }
+@property (nonatomic, retain) IBOutlet UINavigationBar *navBar;
 
 @end
